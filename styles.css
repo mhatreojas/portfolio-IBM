@@ -6,6 +6,9 @@
     font-size: large;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .master{
     display: inline;
@@ -63,7 +66,8 @@
     
     margin:0px;
     padding: 15px;
-    
+    text-decoration: none;
+    color: #fff;
 }
 .navel:hover{
     color: white;
@@ -74,7 +78,7 @@
     
 }
 
-.about-me{
+#about-me{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -193,6 +197,49 @@ p a:visted {
             background-position: top right;
     }
 }
+#skills{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 60px ;
+    height:80vh;
+    background-color: #222;
+    font-family: sans-serif;
+    
+}
+.skillset{
+    display:flex;
+    flex-wrap: wrap;
+    margin:60px;
+    margin-top: 0px;
+}
+.skillele{
+    background-color: white;
+    height: 190px;
+    width: 190px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.skillele:hover{
+   
+    height: 190px;
+    width: 190px;
+}
+.skillhead{
+    font-size: 60px;
+}
 
-
+.images{
+    height: 50%;
+    width:50%;
+   
+    border-radius: 10px;
+}
 
